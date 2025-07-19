@@ -1,0 +1,46 @@
+JavaScript Fundamental
+
+1. Commenting (Komentar)
+Komentar digunakan untuk memberi catatan atau penjelasan dalam kode agar mudah dibaca (tidak dijalankan oleh program).
+
+// untuk comment 1 lane (Baris)
+/* */ untuk comment Komplikasi (> 1 Baris)
+
+2. Data Types
+
+string -> 'Saya Razan' , "Saya Bapaknya Razan" (Kumpulan Karakter)
+number -> 10,20,30,56,...
+Boolean -> true/false
+undefined (variable yang belum diberi nilai)
+null
+array (Kumpulan Data) -> [56,55,87,45,10]
+object (kombinasi dari key:value) ->
+{
+'name' : 'Razan',
+'age' : '23',
+'pro' : 'exp'
+}
+
+3. variable Declaration:
+
+var -> untuk memasukan tipe data (var myFirstName = 'Razan');
+let ->
+const ->Nilainya permanen (tidak bisa diubah)
+
+4. JavaScript Operator:
+
+= Assigment Operater (memberikan nilai)
++ Concatination/Addition Opearter (nambah)
+- Subtraction Operater (kurang)
+* Multiplication Operater (perkalian)
+/ Division Operater (pembagian)
+% Modulo Operater (sisa bagi)
+== Comparison Operater (sama nilai 'tanpa cek tipe data')
+=== Comparison Operater with Data Type (sama nilai dan tipe data)
++= Appending Operater (menambahkan dan menugaskan)
+
+> Greather than operater (lebih besar)
+< Less than operater (lebih kecil)
+>= Greater than or equal to operater (lebih besar/sama)
+<= Less than or equal to operater (lebih kecil/sama)
+!= Not Equal to (tidak sama)
