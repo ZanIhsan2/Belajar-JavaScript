@@ -2,4 +2,30 @@ JavaScript Fundamental (2)
 
 String Method:
 
-'I have completed my studies, and completed ServiceNow course and completed some other trainings'
+var str = 'I have completed my studies, and completed ServiceNow course and completed some other trainings';
+
+console.log(str.startsWith('I have'));
+console.log(str.endstWith('trainings'));
+console.log(str.length);
+console.log(str.toLowerCase());
+console.log(str.toUpperCase());
+console.log(str.includes('completed'));
+console.log(str.split('serviceNow'));
+console.log(str.split('').reverse().join(''));
+console.log(str.split('').reverse().join('').trim());
+console.log(str.trim().charAt(5));
+console.log(str.trim().charCodeAt(5));
+
+console.log(str.indexOf('completed'));
+console.log(str.lastIndexOf('completed'));
+console.log(str.trim());
+console.log(str.trimStart());
+console.log(str.trimEnd());
+console.log(str.replace('completed', 'finished'));
+console.log(str.replaceAll('completed', 'finished'));
+
+var newStr = str.trim();
+
+console.log(newStr.slice(0,28));
+console.log(newStr.substr(0,5));
+console.log(newStr.substring(27,0));
