@@ -1,0 +1,5 @@
+JavaScript Fundamental (2)
+
+String Method:
+
+'I have completed my studies, and completed ServiceNow course and completed some other trainings'
