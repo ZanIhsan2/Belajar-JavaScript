@@ -1,0 +1,31 @@
+Array Methods:
+
+var arr = [3,4,5,6,7,5,6,7];
+//index = [0,1,2,3,4,5,6,7] -> 8
+
+console.log(arr.length);
+console.log(typeof arr);
+console.log(typeof arr.toString());
+
+console.log(arr.join('and')); -> Menambahkan Kata/Simbol menggunakan Join
+
+var arr2 = [1,2,3,4,5,6];
+console.log(arr.concat(arr2));
+console.log(arr.flat(arr2));
+
+var arr = str.split('');
+console.log(typeof arr);
+
+var newArr = arr.push('67') 
+console.log(newArr);
+
+var oi = newArr.pop() 
+console.log(oi);
+
+variabel.pop();
+variabel.push('data');
+variabel.unshift('data');
+variabel.shift();
+variabel.sort();
+
+console.log(arr.slice(2,5))
