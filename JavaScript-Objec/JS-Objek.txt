@@ -1,0 +1,28 @@
+Object in JavaScript:
+Object di JavaScript adalah tipe data kompleks yang menyimpan kumpulan property dalam bentuk pasangan key dan value.
+
+var movie = {
+name : 'Tanah-Siapa',
+actor: 'Angelina',
+director : 'rzn',
+musicdirector : 'pong'
+}
+
+1. movie -> nama objek nya
+2. name, actor, director dan musicdirector -> key (properti)
+3. 'Tanah-Siapa', 'Angelina', 'rzn' dan 'pong' -> value dari masing-masing key
+
+Object contains properties
+
+Property is key value pair
+
+
+var movie1 = 'Tanah-Siapa$Angelina$rzn$pong' -> string
+
+var movie2 = ['Tanah-Siapa', 'Angelina', 'rzn', 'pong'] -> array
+
+console.log('String: ' +movie1['$'](0));
+
+console.log('Array: ' +movie2[1]);
+
+console.log('Objeck: ' +movie.name);
